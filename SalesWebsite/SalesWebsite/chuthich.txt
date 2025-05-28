@@ -1,0 +1,9 @@
+﻿Header:
+Top Bar: Hiển thị hotline cố định ở trên cùng.
+Main Header: Chứa logo, thanh tìm kiếm, và giỏ hàng.
+Navigation: Menu danh mục chính.
+Banner: Quảng cáo lớn với hình nền, tiêu đề, và nút kêu gọi hành động.
+Featured Products: Các section sản phẩm (Tivi, Tủ lạnh, Máy giặt, Máy lạnh, Gia dụng):
+Mỗi section có tiêu đề (h2) và danh sách sản phẩm (product-list).
+Mỗi sản phẩm (product) chứa hình ảnh, thông tin giá, phần trăm giảm giá, và nút "Mua ngay".
+Footer: Chứa thông tin cửa hàng, chính sách, và liên hệ.

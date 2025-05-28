@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký - Điện Máy Gia Khang</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- Thanh trên cùng (Top Bar): Hiển thị hotline -->
+        <div class="top-bar">
+            <div class="container">
+                <span>
+                    <strong>ĐIỆN MÁY GIA KHANG</strong>
+                    <span class="highlight">chi định</span>
+                    <span class="hotline">Hotline</span>
+                    <span class="hotline-number">1900 0448</span>
+                    <span class="hotline">hoặc</span>
+                    <span class="hotline-number">028 8886 6868</span>
+                </span>
+            </div>
+        </div>
+        <!-- Phần chính của Header: Logo, thanh tìm kiếm, giỏ hàng, đăng nhập -->
+        <div class="main-header">
+            <div class="container">
+                <div class="logo">
+                    <!-- Logo liên kết về trang chính -->
+                    <a href="index.html"><h1>Điện Máy Gia Khang</h1></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Phần Form Đăng Ký -->
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-form">
+                <h2>Đăng Ký</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="fullname">Họ và Tên:</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Mật khẩu:</label>
+                        <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Xác nhận mật khẩu:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Xác nhận mật khẩu" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Đăng Ký</button>
+                </form>
+                <div class="auth-link">
+                    <p>Đã có tài khoản? <a href="login.html" class="login-btn">Đăng Nhập</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
